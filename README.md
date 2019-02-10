@@ -12,7 +12,7 @@ The functionality is based on the [TypeGreek](http://www.typegreek.com) website,
 Still to Do
 ---------------------
 
-[] Create functionality for adding accents (currently only converts the letters, not the accents)
-[] Make the "convert to Greek" checkbox functional (currently does nothing)
-[] Rebuild CSS for responsive layout
-[] Create new branding and appearance for web page
+- [ ] Create functionality for adding accents (currently only converts the letters, not the accents)
+- [ ] Make the "convert to Greek" checkbox functional (currently does nothing)
+- [ ] Rebuild CSS for responsive layout
+- [ ] Create new branding and appearance for web page
