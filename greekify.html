@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Convert your text to polytonic Greek as you type - 
+    an easy way to type Ancient Greek with a standard keyboard layout!">
+    <meta name="keywords" content="type greek,type greek characters,
+    greek characters,type,greek,unicode,polytonic greek">
+
+    <title>Greekify</title>
+
+    <!--<link rel="shortcut icon" href="http://www.typegreek.com/favicon.ico">-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+
+<body id="home" onLoad="setFocus();" onClick="setFocus();">
+  <div id="branding">
+    <div class="wrapper">
+      <h1 id="branding-name">Greekify</h1>
+    </div>
+  </div>
+
+  <div id="main">
+    <div class="wrapper">
+      <div id="content">
+
+        <form action="" method="POST" id="greek" name="greek">
+              <div>
+                  <textarea class="greek" id="greekTextArea" name="textArea" rows=9 cols=50>                  </textarea>
+              </div>
+              <div id="textarea-actions">
+                <div id="convertGreek">
+                  <input type="checkbox" name="convertGreek" checked=checked onclick="setFocus();">Convert to Greek
+                </div>
+                <div id="alphabetKey">
+                  <a href="http://www.typegreek.com/alphabet.key/">Alphabet Key</a>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/greekify.js"></script>
+  <script type="text/javascript">
+    function setFocus() {
+      document.greek.textArea.focus();
+    }
+  </script>  
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+body {
+  margin: 0; 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 80%;
+  background-color: "lightblue";
+}
+
+.greek {
+  font-family: "TITUS Cyberbit Basic", "Gentium", "New Athena Unicode", "Palatino Linotype", "Arial Unicode MS", "Georgia Greek";
+  font-size:2em;
+}
+
+.greektext {
+  font-family: "TITUS Cyberbit Basic", "Gentium", "New Athena Unicode", "Palatino Linotype", "Arial Unicode MS", "Georgia Greek";
+}
+
+.button {font-size: 150%;}
+
+/* ----- Home page styles ----- */
+#greek {
+  background: #D4EAF7;
+  margin: 0px;
+  padding: .5em;
+  overflow: hidden;
+}
+
+#branding {
+  min-height: 100px; 
+  background: #1572A7;
+}
+
+#branding .wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+#branding-name {
+  display: block; 
+  text-decoration: none; 
+  color: white;
+  height: 51px; 
+  width: 260px; 
+  margin: 0 40px 0 0;
+  float: left;
+}
+
+#branding-tagline {
+  margin: 0;
+  font-size: 1.3em;
+  color: #CCC;
+}
+      
+#branding-tagline a {
+  color: #EEE;
+}
+      
+#branding-tagline a:hover {
+  color: #FFF;
+}
+
+#main .wrapper {
+  max-width: 960px; 
+  margin: 0 auto; 
+  padding: 20px 20px;
+}
+
+#main textarea.greek {
+  width: 99%; margin: 0 auto; 
+  border: 1px solid #CCC;
+}
+
+#textarea-actions {
+  padding: 1em 1% 0 0;
+}
+
+#convertGreek {
+  float: left;
+}
+
+#alphabetKey, 
+#convertButton {
+  float: right;
+}
